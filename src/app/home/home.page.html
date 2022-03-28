@@ -1,0 +1,86 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+    <ion-title>
+      Home
+    </ion-title>
+
+    <ion-buttons slot="start">
+<ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-button ion-button block color="primary" slot="end" (click)="btnclicked()" routerLink="/login" >SALIR</ion-button>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+
+ <!-- <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>-->
+
+    <ion-content>
+      <ion-slides pager="true" [options]="" class="ion-margin-top">
+        <ion-slide class="slide-1">
+          <ion-card>
+          <h1>SPORTGROUP </h1>
+          <h4>La tienda Sportgroup esta ubicada en la zona norte del pais, especificamente en el municipio de trujillo,
+            Ofrecemos todo tipo de calzado deportivo de gran calidad a muy buenos precios, a continuacion
+            les presentamos los productos mas vendidos:
+          </h4>
+          
+          <h6>Deslize--></h6>
+            <img src="https://i.pinimg.com/originals/06/7a/00/067a003353112cfa87c06c3fd1d8b366.jpg" class="d-block w-100"
+  width="90%" height="90%">
+  
+          
+        </ion-card>
+        </ion-slide >
+        <ion-slide class="slide-2">
+          <ion-card>
+          <h1>Tenis Mkcalvin
+            <img src="https://i.pinimg.com/474x/30/20/db/3020dbbb67bf31a0875c2b12bf24b1dd.jpg"class="d-block w-100" width="90%" height="90%">
+            <P>Es uno de los productos mas cotizados por nuestros clientes, esto por la calidad y comodidad que ofrece</P>
+          </h1>
+        </ion-card>
+        </ion-slide >
+        <ion-slide class="slide-3">
+          <ion-card>
+          <h1>Tenis SS-Senji
+            <img src="https://i.pinimg.com/originals/c8/5b/bb/c85bbb8cb8232e30b9c3bd1ecbad18cd.jpg"class="d-block w-100" width="90%" height="90%">
+            <P> Preferidos por la elegancia que brindan, son buenos acompañantes para momentos especiales</P>
+
+          </h1>
+        </ion-card>
+        </ion-slide>
+        <ion-slide class="slide-4">
+          <ion-card>
+          <h1>Tenis Nike
+            <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a309e2eb-314b-422b-84b7-b20b557fcdfb/calzado-de-tenis-de-cancha-dura-court-zoom-vapor-cage-4-rafa-1t7FzV.png"class="d-block w-100" width="90%" height="90%">
+            <P> Una marca Famosa, por su estilo, por su calidad y por su durabilidad</P>
+
+          </h1>
+        </ion-card>
+        </ion-slide>
+        <ion-slide class="slide-5">
+          <ion-card>
+          <h1>Tenis Ebay
+            <img src="https://http2.mlstatic.com/D_NQ_NP_883361-MLM43488080052_092020-W.jpg" class="d-block w-100" width="90%" height="90%">
+            <P> El mejor calzado para damas, su comidad las pone contentas</P>
+
+          </h1>
+        </ion-card>
+        </ion-slide>
+      </ion-slides>
+     
+    </ion-content>
+ 
+
+
+
+
+
+  
+</ion-content>
+

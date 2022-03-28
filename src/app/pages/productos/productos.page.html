@@ -1,0 +1,143 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>productos</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+          </ion-buttons>
+          <ion-button ion-button block color="primary" slot="end" (click)="btnclicked()" routerLink="/login" >SALIR</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+<h3>Bienvenidos al Stock de productos</h3>
+<ion-fab vertical="top" horizontal="end" slot="fixed">
+
+  <ion-fab-button (click)="abrircarrito()" #cart>
+
+    <ion-icon name="cart" class="cart-icon"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+<ion-list>
+<ion-card class="a">
+<ion-card-header>
+<ion-card-title>TENIS NIKE</ion-card-title>
+</ion-card-header>
+
+
+<ion-row class="ion-align-items-center">
+  <ion-col size="8"> <ion-label color="light"><b>{{200 | currency:'USD'}}<p></p> cantidad Disponible: 20
+    <p></p>Fabricado en USA</b></ion-label></ion-col>
+  <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b456d9b6-daa6-434d-a8c3-516512dfffc4/calzado-de-tenis-para-cancha-dura-court-vapor-lite-4l51J6.png"></ion-col>
+</ion-row>
+
+
+</ion-card>
+<ion-card class="a">
+  <ion-card-header>
+  <ion-card-title>TENIS MKalvin</ion-card-title>
+  </ion-card-header>
+  
+  
+  <ion-row class="ion-align-items-center">
+    <ion-col size="8"> <ion-label color="light"><b>{{80 | currency:'USD'}}<p></p> cantidad Disponible: 12
+      <p></p>Fabricado en USA</b></ion-label></ion-col>
+    <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://i.pinimg.com/474x/30/20/db/3020dbbb67bf31a0875c2b12bf24b1dd.jpg"></ion-col>
+  </ion-row>
+  
+  
+  </ion-card>
+
+  <ion-card class="a">
+    <ion-card-header>
+    <ion-card-title>TENIS EBAY</ion-card-title>
+    </ion-card-header>
+    
+    
+    <ion-row class="ion-align-items-center">
+      <ion-col size="8"> <ion-label color="light"><b>{{50 | currency:'USD'}}<p></p> cantidad Disponible: 50
+        <p></p>Fabricado en Honduras</b></ion-label></ion-col>
+      <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://http2.mlstatic.com/D_NQ_NP_883361-MLM43488080052_092020-W.jpg"></ion-col>
+    </ion-row>
+    
+    
+    </ion-card>
+
+    <ion-card class="a">
+      <ion-card-header>
+      <ion-card-title>TENIS ADIDAS</ion-card-title>
+      </ion-card-header>
+      
+      
+      <ion-row class="ion-align-items-center">
+        <ion-col size="8"> <ion-label color="light"><b>{{180 | currency:'USD'}}<p></p> cantidad Disponible: 18
+          <p></p>Fabricado en USA</b></ion-label></ion-col>
+        <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/d3bec460bf19488e848caa3b01107abe_9366/Tenis_Advantage_Base_Blanco_EE7510_01_standard.jpg"></ion-col>
+      </ion-row>
+      
+      
+      </ion-card>
+
+      <ion-card class="a">
+        <ion-card-header>
+        <ion-card-title>TENIS SS-SENJI</ion-card-title>
+        </ion-card-header>
+        
+        
+        <ion-row class="ion-align-items-center">
+          <ion-col size="8"> <ion-label color="light"><b>{{90 | currency:'USD'}}<p></p> cantidad Disponible: 30
+            <p></p>Fabricado en Colombia</b></ion-label></ion-col>
+          <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://i.pinimg.com/originals/c8/5b/bb/c85bbb8cb8232e30b9c3bd1ecbad18cd.jpg"></ion-col>
+        </ion-row>
+        
+        
+        </ion-card>
+
+        <ion-card class="a">
+          <ion-card-header>
+          <ion-card-title>TENIS IEN-70</ion-card-title>
+          </ion-card-header>
+          
+          
+          <ion-row class="ion-align-items-center">
+            <ion-col size="8"> <ion-label color="light"><b>{{100 | currency:'USD'}}<p></p> cantidad Disponible: 5
+              <p></p>Fabricado en USA</b></ion-label></ion-col>
+            <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://images-na.ssl-images-amazon.com/images/I/8104Vvbz35L._AC_UL604_SR604,400_.jpg"></ion-col>
+          </ion-row>
+          
+          
+          </ion-card>
+
+<ion-card class="a">
+          <ion-card-header>
+          <ion-card-title>TENIS LA COSTE</ion-card-title>
+          </ion-card-header>
+          
+          
+          <ion-row class="ion-align-items-center">
+            <ion-col size="8"> <ion-label color="light"><b>{{60 | currency:'USD'}}<p></p> cantidad Disponible: 87
+              <p></p>Fabricado en Panama</b></ion-label></ion-col>
+            <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://i.pinimg.com/originals/3f/9d/22/3f9d22e576d1f301c11769570c04f6ee.png"></ion-col>
+          </ion-row>
+          
+          
+          </ion-card>
+
+          <ion-card class="a">
+            <ion-card-header>
+            <ion-card-title>TENIS THOMSON</ion-card-title>
+            </ion-card-header>
+            
+            
+            <ion-row class="ion-align-items-center">
+              <ion-col size="8"> <ion-label color="light"><b>{{110 | currency:'USD'}}<p></p> cantidad Disponible: 2
+                <p></p>Fabricado en USA</b></ion-label></ion-col>
+              <ion-col size="4" class="ion-text-right"><ion-icon name="add"></ion-icon><img src="https://image.made-in-china.com/155f0j00pOiTkEhgsoub/New-Athletic-Basketball-Footwear-Tennis-Sports-Shoes-for-Men-and-Women-825-.jpg"></ion-col>
+            </ion-row>
+            
+            
+            </ion-card>
+</ion-list>
+
+<ion-back-button class="backbutton">CERRAR</ion-back-button>
+</ion-content>
